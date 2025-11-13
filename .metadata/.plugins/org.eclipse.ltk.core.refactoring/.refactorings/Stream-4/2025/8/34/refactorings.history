@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Practice.java&apos; to &apos;Stream-4/src/com.demo.toMap&apos;&#x0D;&#x0A;- Original project: &apos;Stream-4&apos;&#x0D;&#x0A;- Destination element: &apos;Stream-4/src/com.demo.toMap&apos;&#x0D;&#x0A;- Original element: &apos;com.demo.distinct.Practice.java&apos;" description="Copy compilation unit" destination="/src&lt;com.demo.toMap" element1="/src&lt;com.demo.distinct{Practice.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1755975970796" units="1" version="1.0"/>
+</session>

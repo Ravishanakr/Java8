@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Demo.java&apos; to &apos;com.demo.InfinieStream.java&apos;&#x0D;&#x0A;- Original project: &apos;ParlellStreams&apos;&#x0D;&#x0A;- Destination element: &apos;com.demo.InfinieStream.java&apos;&#x0D;&#x0A;- Original element: &apos;com.demo.Demo.java&apos;" description="Copy compilation unit" destination="/src&lt;com.demo{InfinieStream.java" element1="/src&lt;com.demo{Demo.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1746150454926" units="1" version="1.0"/>
+</session>

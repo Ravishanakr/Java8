@@ -1,0 +1,43 @@
+package com.filterMap;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Set;
+import java.util.stream.Collectors;
+
+public class Demo2 {
+
+	public static boolean validateName(String name) {
+		return (name.startsWith("R")) ? true : false;
+	}
+
+	public static void main(String[] args) {
+
+		List<Emp> empList = new ArrayList<>();
+
+		Emp e2 = new Emp(102, "Suresh", 122000.00d);
+		Emp e1 = new Emp(101, "Ramesh", 1000.00d);
+		Emp e3 = new Emp(103, "Somesh", 121000.00d);
+		Emp e4 = new Emp(104, "Rupesh", 901000.00d);
+
+		List<Emp> asList = Arrays.asList(e2, e1, e3, e4);
+
+		
+
+		// map
+		// map will take one argument return something(Function)
+		
+		// write a program to separate empName into a separate empList
+		List<String> collect = asList.stream().map((list) -> list.getEmpName()).collect(Collectors.toList());
+
+		System.out.println(collect);
+
+		// write a program to separate EmpId into a separate empList
+
+		Set<Integer> collect2 = asList.stream().map(id -> id.getEmpId()).collect(Collectors.toSet());
+		System.out.println(collect2);
+
+	}
+
+}

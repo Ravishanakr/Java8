@@ -1,0 +1,7 @@
+2.1 ) Predicate & BiPredicate
+
+
+
+		2.2 ) Consumer  & BiConsumer
+		2.3 ) Supplier
+		2.4 ) Function & BiFunction

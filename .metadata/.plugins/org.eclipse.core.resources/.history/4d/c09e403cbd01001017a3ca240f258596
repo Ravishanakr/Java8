@@ -1,0 +1,28 @@
+package com.demo;
+
+import java.time.Duration;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+
+public class Demo {
+
+	public static void main(String[] args) {
+
+	   LocalDateTime now = LocalDateTime.now();
+	    System.out.println(now);
+
+		LocalDate now2 = LocalDate.now();
+		System.out.println(now2.plusMonths(10));
+		
+
+		LocalDate of = LocalDate.of(2000, 10, 30);
+		System.out.println(of);
+
+		
+		System.out.println(LocalTime.now());
+		System.out.println(LocalDateTime.now());
+
+	}
+
+}

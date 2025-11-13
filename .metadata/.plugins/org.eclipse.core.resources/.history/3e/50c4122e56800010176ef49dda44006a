@@ -1,0 +1,16 @@
+package com.demo;
+
+
+import java.util.Arrays;
+import java.util.List;
+
+public class Practice {
+
+	public static void main(String[] args) {
+		   String [] names =new {"Ravi","Shankar","Derangula","Salaar"};
+
+
+
+	}
+
+}

@@ -1,0 +1,28 @@
+Terminal Operations
+========================
+1)Terminal operations are used to consume 
+the Stream and produce a result.such as a value, or collection.
+
+Common Terminal Operations:
+=============================
+
+forEach(Consumer<T>): -->take consumer
+
+collect(Collector<T, A, R>):-->
+
+reduce(BinaryOperator<T>):-->
+
+count(): --->
+
+anyMatch(Predicate<T>): 
+
+allMatch(Predicate<T>): 
+
+noneMatch(Predicate<T>):
+
+findFirst(): 
+
+findAny(): 
+
+ 
+

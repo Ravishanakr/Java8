@@ -1,0 +1,14 @@
+package com.demo;
+
+import java.util.stream.Stream;
+
+public class Practice {
+
+	public static void main(String[] args) {
+		String[] names = { "Ravi", "Shankar", "Derangula", "Salaar" };
+
+		Stream.of(names).filter(p -> p.startsWith("R")).forEach(p -> System.out.println(p));
+
+	}
+
+}

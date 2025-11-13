@@ -1,0 +1,13 @@
+package com.demo;
+
+import java.time.LocalDateTime;
+
+public class Demo2 {
+
+	public static void main(String[] args) {
+
+		LocalDateTime now = LocalDateTime.now();
+
+		
+	}
+}

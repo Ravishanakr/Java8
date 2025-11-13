@@ -1,0 +1,50 @@
+1.Stream: Stream is an interface introduced in Java8 
+under package called java.util package.
+ 
+2.Using streams we can perform operations on Collection Object.
+3.Streams work perfectly with lambdas.
+4.Streams don't store their elements.
+5.Streams are immutable.
+
+
+Intermediate Operations
+========================
+1)Intermediate operations in Java Streams return another Stream.
+
+2)They are used to transform or filter the elements of the 
+original Stream.
+
+3)Since they are lazy, meaning they do not perform any 
+processing until a terminal operation is called
+
+4)multiple intermediate operations can be chained together.
+
+
+Common Intermediate Operations:
+
+1)map(Function<T, R>):--it will take Function
+
+2)filter(Predicate<T>):--it will take predicate
+
+3)distinct():-->you should override equals and hash code method
+
+4)sorted():-->
+
+5)limit(long n):
+
+6)skip(long n):
+
+7)peek(Consumer<T>):
+
+8)flatMap(Function<T, Stream<R>>):
+
+
+
+
+
+
+
+
+
+ 
+

@@ -1,0 +1,17 @@
+package com.demo;
+
+import java.time.LocalDate;
+import java.time.LocalTime;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		
+		LocalDate now = LocalDate.now();
+		System.out.println(now);
+		System.out.println(LocalTime.now());
+
+
+	}
+
+}
